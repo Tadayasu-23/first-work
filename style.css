@@ -99,24 +99,23 @@ nav > li > a:hover {
 	margin: 0 auto;
 }
 #scroll>a:hover > div+svg{
-	fill: #0fff00;
-	color: #0fff00;
+	opacity: 100%;
 }
 #scroll>a:hover > div, svg{
-	fill: #0fff00;
-	color: #0fff00;
+	opacity: 100%;
 }
 #scroll svg {
 	width: 30px;
 	height: 40px;
 	display: inline-block;
 	margin: 0 auto;
-	fill: #ccc;
+	fill: white;
+	opacity: 30%;
 	position: absolute;
 	left: 70px;
 }
 #scroll svg:hover {
-	fill: #0fff00
+	opacity: 100%;
 }
 #scroll div {
 	display: inline-block;
@@ -124,10 +123,11 @@ nav > li > a:hover {
 	margin: 0 auto;
 	position: absolute;
 	top: 10px;
-	color: #ccc;
+	color: white;
+	opacity: 30%;
 }
 #scroll div:hover {
-	color: #0fff00
+	opacity: 100%;
 }
 #form {
 	width: 1027px;
