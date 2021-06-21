@@ -5,7 +5,6 @@
 	text-decoration: none;
 }
 html, body {
-	max-width: 1200px;
 	background: url("images/main-background.png") no-repeat;
 	background-size: 100% auto;
 	font-size: 16px;
@@ -32,6 +31,13 @@ header div {
 	font-weight: 600;
 	font-family: sans-serif;
 	color: #ccc;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 692px;
+	padding: 0 60px;
+	position: relative;
 }
 li {
 	margin-left: 40px;
@@ -99,7 +105,7 @@ nav > li > a:hover {
 	margin: 0 auto;
 }
 #scroll>a:hover > div+svg{
-	opacity: 100%;
+	opacity: 100%
 }
 #scroll>a:hover > div, svg{
 	opacity: 100%;
@@ -114,9 +120,6 @@ nav > li > a:hover {
 	position: absolute;
 	left: 70px;
 }
-#scroll svg:hover {
-	opacity: 100%;
-}
 #scroll div {
 	display: inline-block;
 	font-size: 18px;
@@ -125,9 +128,6 @@ nav > li > a:hover {
 	top: 10px;
 	color: white;
 	opacity: 30%;
-}
-#scroll div:hover {
-	opacity: 100%;
 }
 #form {
 	width: 1027px;
@@ -179,7 +179,7 @@ nav > li > a:hover {
 	font-style: italic;
 }
 #dog {
-	width: 1200px;
+	width: 100%;
 	height: 1111px;
 	background: url(images/tree.png);
 	background-size: cover;
@@ -191,7 +191,7 @@ nav > li > a:hover {
 	margin: 0 0;
 	float: left;
 	top: 440px;
-	left: -50px;
+	left: -10px;
 }
 #zagolovok {
 	position: absolute;
@@ -298,7 +298,7 @@ nav > li > a:hover {
 	width: 100%;
 	height: 692px;
 	background-image: url(images/Forest.png);
-	background-size: 100% auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 #navigation {
